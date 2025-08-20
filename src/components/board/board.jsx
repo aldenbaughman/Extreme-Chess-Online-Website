@@ -1,6 +1,7 @@
 import './board.css'
 import Files from './parts/files'
 import Ranks from './parts/ranks'
+import Pieces from '../pieces/pieces'
 
 function Board(){
 
@@ -27,6 +28,8 @@ function Board(){
                         )
                     )}
             </div>
+
+            <Pieces/>
 
             <Files files = {files}/>
         </div>
