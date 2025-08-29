@@ -16,11 +16,11 @@ function App() {
   }
 
   return (
-    <AppContext.Provider value={providerState}>
+    <AppContext value={providerState}>
       <div className="App">
         <Board/>
       </div> 
-    </AppContext.Provider>
+    </AppContext>
   );
 }
 
